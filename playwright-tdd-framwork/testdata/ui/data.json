@@ -1,0 +1,30 @@
+{
+   "Verify Cookies popup content":{
+    "content":"We may use cookies and similar technologies to collect information about the ways you interact with and use the website"
+   },
+   "Verify cookies popup is getting closed":{
+    "buttonName":"Allow All"
+   },
+   "Verify login with valid credentials":{
+     "buttonName":"Allow All",
+        "username":"bharattechacademy5@outlook.com",
+        "password":"BharathTechAcademy#1234"
+   },
+   "Verify login with invalid credentials":{
+     "buttonName":"Allow All",
+        "username":"test@test.com",
+         "password":"Test@1234",
+         "expectedErrorMsg":"Invalid email or password."
+   },
+   "Verify forgot password functionality":{
+         "buttonName":"Allow All",
+        "username":"bharattechacademy3@outlook.com"
+   },
+   "Verify adding a new user":{
+     "buttonName":"Allow All",
+        "username":"bharattechacademy5@outlook.com",
+        "password":"BharathTechAcademy#1234",
+        "newUserEmail":"newuser@example.com",
+        "newUserRole":"Developer"
+   }
+}

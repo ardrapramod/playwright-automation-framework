@@ -1,0 +1,45 @@
+{
+     "duplicateRepo":{
+        "requestType":"POST",
+        "endpoint":"/user/repos",
+        "body":{            
+            "name" : "JMeterRepo2"
+        },
+        "expectedStatusCode":422,
+        "expectedStatusMessage":"Unprocessable Entity",
+        "expErrorMessage":"Repository creation failed."
+     },
+     "validRepo":{
+        "requestType":"POST",
+        "endpoint":"/user/repos",
+        "body":{            
+            "name" : "JMeterRepo4"
+        },
+        "expectedStatusCode":201,
+        "expectedStatusMessage":"Created",
+        "name":"JMeterRepo4"
+     },
+     "getRepo":{
+        "requestType":"GET",
+        "endpoint":"/repos/bharathtechacademy05/JMeterRepo4",
+        "expectedStatusCode":200,
+        "expectedStatusMessage":"OK",
+        "name":"JMeterRepo4"
+     },
+      "updateRepo":{
+        "requestType":"PATCH",
+        "endpoint":"/repos/bharathtechacademy05/JMeterRepo4",
+        "body":{            
+            "name" : "JMeterRepo4Updated"
+        },
+        "expectedStatusCode":200,
+        "expectedStatusMessage":"OK",
+        "name":"JMeterRepo4Updated"
+     },
+      "deleteRepo":{
+        "requestType":"DELETE",
+        "endpoint":"/repos/bharathtechacademy05/JMeterRepo4",
+        "expectedStatusCode":204,
+        "expectedStatusMessage":"No Content"       
+     }
+}
