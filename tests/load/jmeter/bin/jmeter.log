@@ -1,0 +1,362 @@
+2026-06-11 22:20:16,856 INFO o.a.j.u.JMeterUtils: Setting Locale to en_IN
+2026-06-11 22:20:16,872 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2026-06-11 22:20:16,872 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2026-06-11 22:20:16,878 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-06-11 22:20:16,878 INFO o.a.j.JMeter: Version 5.6.3
+2026-06-11 22:20:16,878 INFO o.a.j.JMeter: java.version=25.0.1
+2026-06-11 22:20:16,878 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2026-06-11 22:20:16,878 INFO o.a.j.JMeter: os.name=Windows 11
+2026-06-11 22:20:16,878 INFO o.a.j.JMeter: os.arch=amd64
+2026-06-11 22:20:16,878 INFO o.a.j.JMeter: os.version=10.0
+2026-06-11 22:20:16,878 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-06-11 22:20:16,878 INFO o.a.j.JMeter: java.awt.headless=null
+2026-06-11 22:20:16,878 INFO o.a.j.JMeter: Max memory     =17087594496
+2026-06-11 22:20:16,879 INFO o.a.j.JMeter: Available Processors =8
+2026-06-11 22:20:16,890 INFO o.a.j.JMeter: Default Locale=English (India)
+2026-06-11 22:20:16,890 INFO o.a.j.JMeter: JMeter  Locale=English (India)
+2026-06-11 22:20:16,890 INFO o.a.j.JMeter: JMeterHome=C:\Training\PlaywrightTrainings\Mar_2026\playwright-tdd-framwork\tests\load\jmeter
+2026-06-11 22:20:16,890 INFO o.a.j.JMeter: user.dir  =C:\Training\PlaywrightTrainings\Mar_2026\playwright-tdd-framwork\tests\load\jmeter\bin
+2026-06-11 22:20:16,891 INFO o.a.j.JMeter: PWD       =C:\Training\PlaywrightTrainings\Mar_2026\playwright-tdd-framwork\tests\load\jmeter\bin
+2026-06-11 22:20:16,893 INFO o.a.j.JMeter: IP: 192.168.88.7 Name: BharathReddy FullName: BharathReddy
+2026-06-11 22:20:16,903 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2026-06-11 22:20:17,037 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: laf:com.sun.java.swing.plaf.windows.WindowsClassicLookAndFeel
+2026-06-11 22:20:22,513 INFO o.a.j.s.FileServer: Default base='C:\Training\PlaywrightTrainings\Mar_2026\playwright-tdd-framwork\tests\load\jmeter\bin'
+2026-06-11 22:20:22,516 INFO o.a.j.g.a.Load: Loading file: C:\Training\PlaywrightTrainings\Mar_2026\playwright-tdd-framwork\tests\load\jmeter\testplans\LoadTest.jmx
+2026-06-11 22:20:22,516 INFO o.a.j.s.FileServer: Set new base='C:\Training\PlaywrightTrainings\Mar_2026\playwright-tdd-framwork\tests\load\jmeter\testplans'
+2026-06-11 22:20:22,810 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-06-11 22:20:22,833 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-06-11 22:20:22,836 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-06-11 22:20:22,838 INFO o.a.j.s.SaveService: Loading file: C:\Training\PlaywrightTrainings\Mar_2026\playwright-tdd-framwork\tests\load\jmeter\testplans\LoadTest.jmx
+2026-06-11 22:20:22,877 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-06-11 22:20:22,877 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-06-11 22:20:22,877 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-06-11 22:20:22,877 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-06-11 22:20:22,878 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-06-11 22:20:22,878 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-06-11 22:20:23,394 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-06-11 22:20:23,394 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-06-11 22:20:23,395 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-06-11 22:20:23,395 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-06-11 22:20:23,728 INFO o.a.j.s.FileServer: Set new base='C:\Training\PlaywrightTrainings\Mar_2026\playwright-tdd-framwork\tests\load\jmeter\testplans'
+2026-06-11 22:20:38,714 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-06-11 22:20:38,716 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-06-11 22:20:38,716 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-06-11 22:20:38,717 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-06-11 22:20:38,717 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-06-11 22:20:38,748 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2026-06-11 22:20:38,839 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Github API Performance Testing
+2026-06-11 22:20:38,839 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Github API Performance Testing.
+2026-06-11 22:20:38,839 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-06-11 22:20:38,839 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=10 delayedStart=false
+2026-06-11 22:20:38,843 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-1
+2026-06-11 22:20:38,860 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = BharathReddy
+2026-06-11 22:20:38,875 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-06-11 22:20:38,877 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-06-11 22:20:38,877 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-06-11 22:20:38,939 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-2
+2026-06-11 22:20:38,972 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2026-06-11 22:20:38,975 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2026-06-11 22:20:38,975 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2026-06-11 22:20:39,040 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-3
+2026-06-11 22:20:39,074 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2026-06-11 22:20:39,077 INFO o.a.j.u.SSLManager: KeyStore created OK
+2026-06-11 22:20:39,077 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2026-06-11 22:20:39,140 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-4
+2026-06-11 22:20:39,241 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-5
+2026-06-11 22:20:39,341 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-6
+2026-06-11 22:20:39,448 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-7
+2026-06-11 22:20:39,541 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-8
+2026-06-11 22:20:39,642 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-9
+2026-06-11 22:20:39,741 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-10
+2026-06-11 22:20:39,842 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-11
+2026-06-11 22:20:39,942 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-12
+2026-06-11 22:20:40,041 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-13
+2026-06-11 22:20:40,140 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-14
+2026-06-11 22:20:40,240 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-15
+2026-06-11 22:20:40,339 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-16
+2026-06-11 22:20:40,440 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-17
+2026-06-11 22:20:40,540 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-18
+2026-06-11 22:20:40,641 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-19
+2026-06-11 22:20:40,741 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-20
+2026-06-11 22:20:40,841 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-21
+2026-06-11 22:20:40,939 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-22
+2026-06-11 22:20:40,961 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-3
+2026-06-11 22:20:40,965 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-3
+2026-06-11 22:20:40,977 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-6
+2026-06-11 22:20:40,977 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-6
+2026-06-11 22:20:40,995 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-4
+2026-06-11 22:20:40,995 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-4
+2026-06-11 22:20:41,040 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-23
+2026-06-11 22:20:41,062 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-1
+2026-06-11 22:20:41,062 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-1
+2026-06-11 22:20:41,095 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-2
+2026-06-11 22:20:41,097 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-2
+2026-06-11 22:20:41,104 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-7
+2026-06-11 22:20:41,104 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-7
+2026-06-11 22:20:41,133 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-5
+2026-06-11 22:20:41,133 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-5
+2026-06-11 22:20:41,141 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-24
+2026-06-11 22:20:41,233 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-8
+2026-06-11 22:20:41,234 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-8
+2026-06-11 22:20:41,241 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-25
+2026-06-11 22:20:41,295 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-9
+2026-06-11 22:20:41,295 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-9
+2026-06-11 22:20:41,341 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-26
+2026-06-11 22:20:41,347 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-10
+2026-06-11 22:20:41,348 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-10
+2026-06-11 22:20:41,443 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-27
+2026-06-11 22:20:41,466 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-11
+2026-06-11 22:20:41,466 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-11
+2026-06-11 22:20:41,511 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-12
+2026-06-11 22:20:41,511 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-12
+2026-06-11 22:20:41,544 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-28
+2026-06-11 22:20:41,640 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-29
+2026-06-11 22:20:41,672 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-13
+2026-06-11 22:20:41,672 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-13
+2026-06-11 22:20:41,739 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-14
+2026-06-11 22:20:41,739 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-14
+2026-06-11 22:20:41,742 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-30
+2026-06-11 22:20:41,840 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-31
+2026-06-11 22:20:41,859 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-15
+2026-06-11 22:20:41,859 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-15
+2026-06-11 22:20:41,922 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-16
+2026-06-11 22:20:41,922 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-16
+2026-06-11 22:20:41,939 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-32
+2026-06-11 22:20:42,040 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-33
+2026-06-11 22:20:42,108 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-18
+2026-06-11 22:20:42,108 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-18
+2026-06-11 22:20:42,128 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-17
+2026-06-11 22:20:42,129 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-17
+2026-06-11 22:20:42,141 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-34
+2026-06-11 22:20:42,232 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-19
+2026-06-11 22:20:42,232 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-19
+2026-06-11 22:20:42,240 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-35
+2026-06-11 22:20:42,343 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-36
+2026-06-11 22:20:42,368 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-20
+2026-06-11 22:20:42,368 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-20
+2026-06-11 22:20:42,440 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-37
+2026-06-11 22:20:42,541 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-38
+2026-06-11 22:20:42,591 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-22
+2026-06-11 22:20:42,592 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-22
+2026-06-11 22:20:42,641 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-39
+2026-06-11 22:20:42,656 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-23
+2026-06-11 22:20:42,656 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-23
+2026-06-11 22:20:42,739 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-40
+2026-06-11 22:20:42,744 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-24
+2026-06-11 22:20:42,744 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-24
+2026-06-11 22:20:42,840 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-41
+2026-06-11 22:20:42,872 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-21
+2026-06-11 22:20:42,872 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-21
+2026-06-11 22:20:42,881 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-26
+2026-06-11 22:20:42,881 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-26
+2026-06-11 22:20:42,942 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-42
+2026-06-11 22:20:43,042 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-43
+2026-06-11 22:20:43,082 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-27
+2026-06-11 22:20:43,083 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-27
+2026-06-11 22:20:43,140 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-44
+2026-06-11 22:20:43,240 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-45
+2026-06-11 22:20:43,240 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-25
+2026-06-11 22:20:43,240 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-25
+2026-06-11 22:20:43,264 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-28
+2026-06-11 22:20:43,264 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-28
+2026-06-11 22:20:43,331 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-29
+2026-06-11 22:20:43,331 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-29
+2026-06-11 22:20:43,340 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-46
+2026-06-11 22:20:43,435 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-30
+2026-06-11 22:20:43,435 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-30
+2026-06-11 22:20:43,441 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-47
+2026-06-11 22:20:43,516 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-31
+2026-06-11 22:20:43,516 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-31
+2026-06-11 22:20:43,541 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-48
+2026-06-11 22:20:43,611 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-32
+2026-06-11 22:20:43,611 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-32
+2026-06-11 22:20:43,641 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-49
+2026-06-11 22:20:43,644 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-33
+2026-06-11 22:20:43,644 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-33
+2026-06-11 22:20:43,695 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-34
+2026-06-11 22:20:43,695 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-34
+2026-06-11 22:20:43,741 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-50
+2026-06-11 22:20:43,812 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-35
+2026-06-11 22:20:43,812 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-35
+2026-06-11 22:20:43,840 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-51
+2026-06-11 22:20:43,940 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-52
+2026-06-11 22:20:43,958 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-36
+2026-06-11 22:20:43,958 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-36
+2026-06-11 22:20:43,986 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-37
+2026-06-11 22:20:43,986 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-37
+2026-06-11 22:20:44,040 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-53
+2026-06-11 22:20:44,141 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-54
+2026-06-11 22:20:44,200 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-38
+2026-06-11 22:20:44,200 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-38
+2026-06-11 22:20:44,241 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-55
+2026-06-11 22:20:44,259 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-39
+2026-06-11 22:20:44,259 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-39
+2026-06-11 22:20:44,311 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-40
+2026-06-11 22:20:44,311 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-40
+2026-06-11 22:20:44,339 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-56
+2026-06-11 22:20:44,440 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-57
+2026-06-11 22:20:44,470 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-41
+2026-06-11 22:20:44,470 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-41
+2026-06-11 22:20:44,540 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-58
+2026-06-11 22:20:44,568 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-42
+2026-06-11 22:20:44,568 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-42
+2026-06-11 22:20:44,642 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-59
+2026-06-11 22:20:44,698 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-43
+2026-06-11 22:20:44,698 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-43
+2026-06-11 22:20:44,740 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-60
+2026-06-11 22:20:44,815 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-44
+2026-06-11 22:20:44,815 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-44
+2026-06-11 22:20:44,839 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-61
+2026-06-11 22:20:44,886 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-45
+2026-06-11 22:20:44,886 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-45
+2026-06-11 22:20:44,913 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-46
+2026-06-11 22:20:44,913 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-46
+2026-06-11 22:20:44,941 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-62
+2026-06-11 22:20:45,003 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-47
+2026-06-11 22:20:45,003 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-47
+2026-06-11 22:20:45,041 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-63
+2026-06-11 22:20:45,140 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-64
+2026-06-11 22:20:45,241 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-65
+2026-06-11 22:20:45,241 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-48
+2026-06-11 22:20:45,241 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-48
+2026-06-11 22:20:45,341 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-66
+2026-06-11 22:20:45,390 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-49
+2026-06-11 22:20:45,390 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-49
+2026-06-11 22:20:45,390 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-50
+2026-06-11 22:20:45,390 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-50
+2026-06-11 22:20:45,391 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-51
+2026-06-11 22:20:45,391 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-51
+2026-06-11 22:20:45,443 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-67
+2026-06-11 22:20:45,540 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-68
+2026-06-11 22:20:45,551 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-52
+2026-06-11 22:20:45,551 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-52
+2026-06-11 22:20:45,641 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-69
+2026-06-11 22:20:45,646 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-53
+2026-06-11 22:20:45,646 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-53
+2026-06-11 22:20:45,743 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-70
+2026-06-11 22:20:45,769 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-54
+2026-06-11 22:20:45,769 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-54
+2026-06-11 22:20:45,828 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-55
+2026-06-11 22:20:45,829 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-55
+2026-06-11 22:20:45,840 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-71
+2026-06-11 22:20:45,939 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-72
+2026-06-11 22:20:45,999 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-56
+2026-06-11 22:20:45,999 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-56
+2026-06-11 22:20:46,040 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-73
+2026-06-11 22:20:46,140 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-74
+2026-06-11 22:20:46,140 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-58
+2026-06-11 22:20:46,140 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-58
+2026-06-11 22:20:46,235 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-57
+2026-06-11 22:20:46,235 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-57
+2026-06-11 22:20:46,239 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-75
+2026-06-11 22:20:46,339 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-76
+2026-06-11 22:20:46,444 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-77
+2026-06-11 22:20:46,473 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-61
+2026-06-11 22:20:46,473 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-61
+2026-06-11 22:20:46,473 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-59
+2026-06-11 22:20:46,474 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-59
+2026-06-11 22:20:46,521 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-60
+2026-06-11 22:20:46,522 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-60
+2026-06-11 22:20:46,541 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-78
+2026-06-11 22:20:46,643 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-79
+2026-06-11 22:20:46,720 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-64
+2026-06-11 22:20:46,720 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-64
+2026-06-11 22:20:46,741 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-80
+2026-06-11 22:20:46,744 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-63
+2026-06-11 22:20:46,744 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-63
+2026-06-11 22:20:46,840 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-81
+2026-06-11 22:20:46,866 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-62
+2026-06-11 22:20:46,866 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-62
+2026-06-11 22:20:46,939 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-82
+2026-06-11 22:20:46,986 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-66
+2026-06-11 22:20:46,986 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-66
+2026-06-11 22:20:47,039 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-83
+2026-06-11 22:20:47,100 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-65
+2026-06-11 22:20:47,100 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-65
+2026-06-11 22:20:47,141 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-84
+2026-06-11 22:20:47,241 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-85
+2026-06-11 22:20:47,260 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-68
+2026-06-11 22:20:47,260 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-68
+2026-06-11 22:20:47,340 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-86
+2026-06-11 22:20:47,347 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-69
+2026-06-11 22:20:47,347 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-69
+2026-06-11 22:20:47,370 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-67
+2026-06-11 22:20:47,370 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-67
+2026-06-11 22:20:47,399 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-70
+2026-06-11 22:20:47,399 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-70
+2026-06-11 22:20:47,439 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-87
+2026-06-11 22:20:47,501 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-71
+2026-06-11 22:20:47,501 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-71
+2026-06-11 22:20:47,540 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-88
+2026-06-11 22:20:47,640 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-89
+2026-06-11 22:20:47,667 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-72
+2026-06-11 22:20:47,667 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-72
+2026-06-11 22:20:47,733 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-73
+2026-06-11 22:20:47,734 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-73
+2026-06-11 22:20:47,740 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-90
+2026-06-11 22:20:47,821 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-75
+2026-06-11 22:20:47,821 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-75
+2026-06-11 22:20:47,840 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-91
+2026-06-11 22:20:47,841 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-74
+2026-06-11 22:20:47,841 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-74
+2026-06-11 22:20:47,940 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-92
+2026-06-11 22:20:47,974 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-77
+2026-06-11 22:20:47,974 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-77
+2026-06-11 22:20:48,000 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-76
+2026-06-11 22:20:48,000 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-76
+2026-06-11 22:20:48,041 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-93
+2026-06-11 22:20:48,141 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-94
+2026-06-11 22:20:48,227 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-78
+2026-06-11 22:20:48,227 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-78
+2026-06-11 22:20:48,240 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-95
+2026-06-11 22:20:48,248 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-80
+2026-06-11 22:20:48,248 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-80
+2026-06-11 22:20:48,258 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-79
+2026-06-11 22:20:48,258 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-79
+2026-06-11 22:20:48,339 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-96
+2026-06-11 22:20:48,440 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-97
+2026-06-11 22:20:48,526 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-82
+2026-06-11 22:20:48,526 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-82
+2026-06-11 22:20:48,537 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-81
+2026-06-11 22:20:48,537 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-81
+2026-06-11 22:20:48,541 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-98
+2026-06-11 22:20:48,563 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-83
+2026-06-11 22:20:48,563 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-83
+2026-06-11 22:20:48,643 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-99
+2026-06-11 22:20:48,739 INFO o.a.j.t.JMeterThread: Thread started: Github API Performance Testing 1-100
+2026-06-11 22:20:48,781 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-84
+2026-06-11 22:20:48,781 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-84
+2026-06-11 22:20:48,819 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-85
+2026-06-11 22:20:48,820 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-85
+2026-06-11 22:20:48,872 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-86
+2026-06-11 22:20:48,872 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-86
+2026-06-11 22:20:49,106 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-88
+2026-06-11 22:20:49,106 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-88
+2026-06-11 22:20:49,149 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-87
+2026-06-11 22:20:49,149 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-87
+2026-06-11 22:20:49,236 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-90
+2026-06-11 22:20:49,237 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-90
+2026-06-11 22:20:49,493 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-92
+2026-06-11 22:20:49,493 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-92
+2026-06-11 22:20:49,529 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-91
+2026-06-11 22:20:49,529 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-91
+2026-06-11 22:20:49,676 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-93
+2026-06-11 22:20:49,676 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-93
+2026-06-11 22:20:49,683 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-89
+2026-06-11 22:20:49,683 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-89
+2026-06-11 22:20:49,733 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-94
+2026-06-11 22:20:49,733 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-94
+2026-06-11 22:20:49,882 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-95
+2026-06-11 22:20:49,882 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-95
+2026-06-11 22:20:49,959 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-96
+2026-06-11 22:20:49,959 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-96
+2026-06-11 22:20:50,068 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-97
+2026-06-11 22:20:50,068 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-97
+2026-06-11 22:20:50,216 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-98
+2026-06-11 22:20:50,217 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-98
+2026-06-11 22:20:50,261 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-99
+2026-06-11 22:20:50,261 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-99
+2026-06-11 22:20:50,419 INFO o.a.j.t.JMeterThread: Thread is done: Github API Performance Testing 1-100
+2026-06-11 22:20:50,419 INFO o.a.j.t.JMeterThread: Thread finished: Github API Performance Testing 1-100
+2026-06-11 22:20:50,420 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-06-11 22:20:50,420 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

@@ -1,0 +1,29 @@
+2026-06-15 22:47:24,669 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-06-15 22:47:24,684 INFO o.a.j.JMeter: Loading user properties from: C:\Training\PlaywrightTrainings\Mar_2026\playwright-tdd-framwork\tests\load\jmeter\bin\user.properties
+2026-06-15 22:47:24,685 INFO o.a.j.JMeter: Loading system properties from: C:\Training\PlaywrightTrainings\Mar_2026\playwright-tdd-framwork\tests\load\jmeter\bin\system.properties
+2026-06-15 22:47:24,690 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-06-15 22:47:24,690 INFO o.a.j.JMeter: Version 5.6.3
+2026-06-15 22:47:24,690 INFO o.a.j.JMeter: java.version=25.0.1
+2026-06-15 22:47:24,690 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2026-06-15 22:47:24,690 INFO o.a.j.JMeter: os.name=Windows 11
+2026-06-15 22:47:24,692 INFO o.a.j.JMeter: os.arch=amd64
+2026-06-15 22:47:24,692 INFO o.a.j.JMeter: os.version=10.0
+2026-06-15 22:47:24,692 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-06-15 22:47:24,692 INFO o.a.j.JMeter: java.awt.headless=true
+2026-06-15 22:47:24,692 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-06-15 22:47:24,692 INFO o.a.j.JMeter: Available Processors =8
+2026-06-15 22:47:24,708 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-06-15 22:47:24,710 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-06-15 22:47:24,710 INFO o.a.j.JMeter: JMeterHome=C:\Training\PlaywrightTrainings\Mar_2026\playwright-tdd-framwork\tests\load\jmeter
+2026-06-15 22:47:24,710 INFO o.a.j.JMeter: user.dir  =C:\Training\PlaywrightTrainings\Mar_2026\playwright-tdd-framwork
+2026-06-15 22:47:24,710 INFO o.a.j.JMeter: PWD       =C:\Training\PlaywrightTrainings\Mar_2026\playwright-tdd-framwork
+2026-06-15 22:47:24,714 INFO o.a.j.JMeter: IP: 192.168.0.249 Name: BharathReddy FullName: BharathReddy
+2026-06-15 22:47:24,722 ERROR o.a.j.JMeter: An error occurred: 
+java.lang.IllegalArgumentException: Cannot write to 'C:\Training\PlaywrightTrainings\Mar_2026\playwright-tdd-framwork\tests\load\jmeter\report-output' as folder is not empty
+	at org.apache.jorphan.util.JOrphanUtils.canSafelyWriteToFolder(JOrphanUtils.java:664) ~[jorphan.jar:5.6.3]
+	at org.apache.jorphan.util.JOrphanUtils.canSafelyWriteToFolder(JOrphanUtils.java:620) ~[jorphan.jar:5.6.3]
+	at org.apache.jmeter.JMeter.extractAndSetReportOutputFolder(JMeter.java:542) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:483) [ApacheJMeter_core.jar:5.6.3]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) [ApacheJMeter.jar:5.6.3]
