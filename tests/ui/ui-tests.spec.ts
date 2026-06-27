@@ -94,8 +94,52 @@ test.describe('Application UI Tests', () => {
         await homePage.verifyHomePageLaunched();
     })
 
-    //Test Case 10: Verify login functionality with invalid credentials.
-        test('Verify login with invalid credentials', async ({}, testInfo: TestInfo) => {
+    //Test Case 10: Verify invalid email format validation.
+    test('Verify invalid email format validation', async ({}, testInfo: TestInfo) => {
+        testdata = data[testInfo.title as keyof typeof data];
+        await loginPage.launchtheApplication();
+        await cookiesPage.verifyCookiesPopupIsDisplayed();
+        await cookiesPage.verifyCookiesPopupSelectionButtons();
+        await cookiesPage.clickOnSelectionButton(testdata.buttonName);
+        await cookiesPage.verifyCookiesPopupIsClosed();
+        await loginPage.verifyLoginPageIsDisplayed();
+        await loginPage.enterBusinessEmailAndPassword(testdata.invalidEmail);
+        await loginPage.clickPasswordField();
+        await loginPage.verifyBusinessEmailValidationMessageIsDisplayed(testdata.expectedErrorMsg);
+    })
+
+    //Test Case 11: Verify excessive email length validation.
+    test('Verify excessive email length validation', async ({}, testInfo: TestInfo) => {
+        testdata = data[testInfo.title as keyof typeof data];
+        const longEmail = `${'a'.repeat(testdata.emailLength - '@example.com'.length)}@example.com`;
+        await loginPage.launchtheApplication();
+        await cookiesPage.verifyCookiesPopupIsDisplayed();
+        await cookiesPage.verifyCookiesPopupSelectionButtons();
+        await cookiesPage.clickOnSelectionButton(testdata.buttonName);
+        await cookiesPage.verifyCookiesPopupIsClosed();
+        await loginPage.verifyLoginPageIsDisplayed();
+        await loginPage.enterBusinessEmailAndPassword(longEmail);
+        await loginPage.clickPasswordField();
+        await loginPage.verifyBusinessEmailValidationMessageIsDisplayed(testdata.expectedErrorMsg);
+    })
+
+    //Test Case 12: Verify excessive password length validation.
+    test('Verify excessive password length validation', async ({}, testInfo: TestInfo) => {
+        testdata = data[testInfo.title as keyof typeof data];
+        const longPassword = 'A'.repeat(testdata.passwordLength);
+        await loginPage.launchtheApplication();
+        await cookiesPage.verifyCookiesPopupIsDisplayed();
+        await cookiesPage.verifyCookiesPopupSelectionButtons();
+        await cookiesPage.clickOnSelectionButton(testdata.buttonName);
+        await cookiesPage.verifyCookiesPopupIsClosed();
+        await loginPage.verifyLoginPageIsDisplayed();
+        await loginPage.enterBusinessEmailAndPassword(testdata.username, longPassword);
+        await loginPage.clickOnLoginButton();
+        await loginPage.verifyPasswordValidationMessageIsDisplayed(testdata.expectedErrorMsg);
+    })
+
+    //Test Case 13: Verify invalid credentials error message.
+        test('Verify invalid credentials error message', async ({}, testInfo: TestInfo) => {
         testdata = data[testInfo.title as keyof typeof data];
         await loginPage.launchtheApplication();
         await cookiesPage.verifyCookiesPopupIsDisplayed();
@@ -108,7 +152,7 @@ test.describe('Application UI Tests', () => {
         await loginPage.verifyErrorMessageForInvalidCredentials(testdata.expectedErrorMsg);
     }) 
     
-    //Test Case 11: Verify forgot password functionality. 
+    //Test Case 14: Verify forgot password functionality. 
     test('Verify forgot password functionality', async ({}, testInfo: TestInfo) => {
         testdata = data[testInfo.title as keyof typeof data];
         await loginPage.launchtheApplication(); 
@@ -121,7 +165,7 @@ test.describe('Application UI Tests', () => {
         await loginPage.clickOnForgotPasswordLink();
         await loginPage.verifyForgotPasswordConfirmationMessageIsDisplayed();
     })
-    //Test Case 12: Verify sign-up link and social media icons are displayed within the login page. 
+    //Test Case 15: Verify sign-up link and social media icons are displayed within the login page. 
     test('Verify sign-up link and social media icons are displayed within the login page', async () => {
 
         await loginPage.launchtheApplication();
@@ -134,7 +178,7 @@ test.describe('Application UI Tests', () => {
         await loginPage.verifySocialMediaIconsAreDisplayed();
     })
 
-    //Test Case 13: Verify adding a new user within the creation CRM application. 
+    //Test Case 16: Verify adding a new user within the creation CRM application. 
     test('Verify adding a new user', async ({}, testInfo: TestInfo) => {
         testdata = data[testInfo.title as keyof typeof data];
         await loginPage.launchtheApplication();
